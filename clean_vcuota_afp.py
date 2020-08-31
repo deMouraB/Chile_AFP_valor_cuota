@@ -8,12 +8,12 @@ import os
 import csv
 
 # path to project
-project_path = '/Users/bernardo/RA team Dropbox/Bernardo Pereira de Moura/Paper Traspasos'
+project_path = 'YOUR_PROJECT_PATH'
 
-# path to raw data
-raw_path = os.path.join(project_path, 'raw/valor_cuota_AFP')
+# path to raw data folder
+raw_path = os.path.join(project_path, 'raw')
 
-# path to manipulated data
+# path to manipulated data folder
 data_path = os.path.join(project_path, 'dat')
 
 # list relevant AFPs + date 
